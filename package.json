@@ -1,0 +1,17 @@
+{
+  "name": "project-ai",
+  "version": "0.1.0",
+  "description": "A minimal Deep Think-like AI app (Express + static frontend)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["ai","openai","express","chat"],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}

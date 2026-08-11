@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Project-Ai — Deep Think</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Project-Ai — Deep Think</h1>
+      <div id="chat" class="chat"></div>
+
+      <form id="promptForm" class="prompt-form">
+        <textarea id="prompt" placeholder="Ask something..." rows="4"></textarea>
+        <div class="controls">
+          <label>Temperature: <input id="temperature" type="range" min="0" max="1" step="0.05" value="0.7" /></label>
+          <button type="submit">Think</button>
+        </div>
+      </form>
+
+      <footer>
+        <small>Powered by OpenAI. Keep your API key secret.</small>
+      </footer>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
